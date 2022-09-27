@@ -1,9 +1,12 @@
 body{
     margin: 0;
 }
+*{
+    margin: 0%;
+}
 .nav-section .nav-bar{
     text-align: right;
-    background-color: white;
+    background-color: transparent;
 }
 ul{
     list-style: none;
@@ -14,6 +17,7 @@ ul{
 }
 .nav-bar a{
     font-size: 0.9em;
+    color: black;
 }
 .container-logo{
     display: flex;
@@ -38,6 +42,7 @@ input[type="text"]:active, input[type="text"]:focus
 #search-img{
     position:relative;
     top:5px;
+    width: 10%;
 }
 .search-cont{
     border:1px solid rgb(206, 206, 206);
@@ -81,4 +86,8 @@ a{
 }
 hr{
     margin: 0;
+}
+#location{
+    padding: 1%;
+    border-bottom:1px solid rgb(206, 206, 206)
 }

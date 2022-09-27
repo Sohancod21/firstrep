@@ -1,11 +1,10 @@
-*{
-    background-color: #202124;
-}body{
+body{
     margin: 0;
+    background-color: #202124
 }
 .nav-section .nav-bar{
     text-align: right;
-    background-color: white;
+    background-color: #202124;
 }
 ul{
     list-style: none;
@@ -16,6 +15,7 @@ ul{
 }
 .nav-bar a{
     font-size: 0.9em;
+    color: white;
 }
 .container-logo{
     display: flex;
@@ -31,6 +31,7 @@ input[type="text"]
     width:90%;
     padding: 5px;
     border: none;
+    background-color: #202124
 }
 input[type="text"]:active, input[type="text"]:focus
 {
@@ -42,12 +43,15 @@ input[type="text"]:active, input[type="text"]:focus
     top:5px;
 }
 .search-cont{
-    border:1px solid rgb(206, 206, 206);
-    border-radius: 100px;
+    border: 1px solid #5f6368;
+    box-shadow: none;
+    border-radius: 24px;
     padding: 5px;
+    outline: none;
 }
 .search-cont:hover{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 7px 0px;
+    
 }
 .search-bar{
     width: 40%;
@@ -62,14 +66,16 @@ input[type="text"]:active, input[type="text"]:focus
     padding: 30px;
 }
 .search-btns .btn{
-    background-color: whitesmoke;
+    background-color: #303134;
+    border: 1px solid #303134;
+    color: white;
     margin: 5px;
 }
 .search-btns .btn:hover{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 #searchbar-button{
-    background-color: white;
+    background-color: #202124;
     border: none;
 }
 a{
@@ -77,9 +83,18 @@ a{
 }
 .footer{
     position: absolute;
-    bottom:5px;
+    bottom:0px;
     width: 100%;
-    background-color: whitesmoke;
+    background: #171717;
+    color: #999da2;
+    margin-bottom: 0;
+}
+#location{
+    padding: 1%;
+    border-bottom: 1px solid #3c4043;
+}
+.footer a{
+    color: #999da2;
 }
 hr{
     margin: 0;
