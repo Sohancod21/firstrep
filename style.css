@@ -31,7 +31,7 @@ form{
 input[type="text"]
 {
     width:90%;
-    padding: 5px;
+    padding: auto;
     border: none;
 }
 input[type="text"]:active, input[type="text"]:focus
@@ -46,9 +46,15 @@ input[type="text"]:active, input[type="text"]:focus
 }
 .search-cont{
     border:1px solid rgb(206, 206, 206);
+    
     border-radius: 100px;
     padding: 5px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: center;
 }
+
 .search-cont:hover{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 7px 0px;
 }
@@ -70,6 +76,9 @@ input[type="text"]:active, input[type="text"]:focus
 }
 .search-btns .btn:hover{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.searchbar-adj{
+    display: inline-block;
 }
 #searchbar-button{
     background-color: white;
