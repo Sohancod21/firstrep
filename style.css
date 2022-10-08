@@ -44,22 +44,24 @@ input[type="text"]:active, input[type="text"]:focus
     top:5px;
     width: 10%;
 }
+
 .search-cont{
     border:1px solid rgb(206, 206, 206);
     
-    border-radius: 100px;
-    padding: 5px;
-   display: flex;
-   flex-direction: row;
-   flex-wrap: nowrap;
-   justify-content: center;
+    border-radius: 20px;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+
 }
 
 .search-cont:hover{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 7px 0px;
 }
 .search-bar{
-    width: 40%;
+    width: 600px;
     margin: 10px auto;
     padding: 20px;
     border: none;
@@ -99,4 +101,22 @@ hr{
 #location{
     padding: 1%;
     border-bottom:1px solid rgb(206, 206, 206)
+}
+
+@media (max-width:636px)
+{
+    .search-bar{
+        width: 95vw;
+    }
+
+    .footer{
+        text-align: center;
+    }
+
+}
+@media (max-height:470px)
+{
+    .footer{
+        position: relative;
+    }
 }
